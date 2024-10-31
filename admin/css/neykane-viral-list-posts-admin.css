@@ -1,0 +1,66 @@
+.w-90-bottom-centered {
+    max-width: 90%;
+    bottom: 0;
+    left: 5%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .w-90-bottom-centered {
+        max-width: 85%;
+        bottom: 1.8rem;
+        left: 7.5%;
+    }
+}
+
+.nk__b5 .neykane-viral-list-posts__item-handle {
+    margin-bottom: 0;
+    margin-top: 2rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0.5rem;
+    cursor: move;
+}
+
+.nk__b5 .neykane-viral-list-posts__item-handle a,
+.nk__b5 .neykane-viral-list-posts__item-handle a:link,
+.nk__b5 .neykane-viral-list-posts__item-handle a:visited,
+.nk__b5 .neykane-viral-list-posts__item-handle a:active,
+.nk__b5 .neykane-viral-list-posts__item-handle a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.nk__b5 .neykane-viral-list-posts__item-body {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border: 1px #e9ecef solid;
+    background: white;
+}
+
+.draggable-mirror {
+    opacity: 0.5;
+}
+
+.draggable-mirror .neykane-viral-list-posts__item-body--right {
+    display: none;
+}
+
+.draggable-mirror .neykane-viral-list-posts__item-body--left > div {
+    display: none;
+}
+
+.draggable-container--is-dragging .neykane-viral-list-posts__item-body--right {
+    display: none;
+}
+
+.draggable-container--is-dragging .neykane-viral-list-posts__item-body--left > div {
+    display: none;
+}
+
+.draggable-source--is-dragging .neykane-viral-list-posts__item-handle {
+    background: #D0D4D6;
+}
+
+.draggable-source--is-dragging .neykane-viral-list-posts__item-body {
+    background: #F2F2F2;
+}

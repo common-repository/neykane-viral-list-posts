@@ -1,0 +1,25 @@
+.neykane-viral-list-posts__container {
+    margin: 1rem 0 1rem 0;
+}
+
+.neykane-viral-list-posts__item--img-prev-btn {
+    width: 3rem;
+    left: -0.5rem;
+    top: 45%;
+}
+
+.neykane-viral-list-posts__item--img-next-btn {
+    width: 3rem;
+    right: -0.5rem;
+    top: 45%;
+}
+
+.neykane-viral-list-posts__item--content-prev-btn {
+    width: 5rem;
+    float: left;
+}
+
+.neykane-viral-list-posts__item--content-next-btn {
+    width: 5rem;
+    float: right;
+}
